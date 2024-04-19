@@ -1,0 +1,146 @@
+@import url(satoshi.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  font-family: "Satoshi-medium",;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+    background-color: #1B1B1B;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+        
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      column-gap: 3rem;
+    }
+    
+}
+
+.black {
+  background-color:#1b1b1b ;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.white-font{
+  color: #ffffff;
+}
+
+.footer-text-colour {
+  color: #1B1B1B;
+}
+
+.max-width {
+  max-width: 1488px;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hyperlink a {
+  color: white;
+}
+.pt-sm {
+  padding-top: 30px;
+}
+
+.pt-md{
+  padding-top: 100px;
+}
+
+.pb-sm {
+  padding-bottom: 100px;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: satoshi-medium;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+h1{
+  font-size: 80px;
+  font-family: "space grotesk";
+  color: white;
+}
+
+h2{
+  font-size: 44px;
+  font-family: satoshi-medium;
+  color: white;
+}
+
+h3{
+  font-size: 40px;
+  font-family: satoshi-medium;
+  color: white;
+}
+
+h4{
+  font-size: 36px;
+  font-family: satoshi-medium;
+  color: #1B1B1B;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+
+.column{
+  display: flex;
+  flex-direction: column;
+  column-gap: 4px;
+  flex-wrap: wrap;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.margin-top{
+  margin-top: 40px;
+}
+
+.pad-bt{
+  padding-bottom: 100px;
+}
+
+.s-pad-bt{
+  padding-bottom: 150px;
+}
+
+.column-gap{
+  column-gap: 10rem;
+}
